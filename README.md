@@ -16,16 +16,12 @@ Synthetic image generation
 
 Streamlit web interface
 
-## Architecture Diagram
-
-![Architecture](images/architecture.png)
-
-## Generated Images
-
-![Generated Output](images/generated_output.png)
-
 ## Streamlit UI
+![Streamlit UI](https://raw.githubusercontent.com/maaaanasa/project-5/main/images/Streamlit%20UI.png)
 
-![Streamlit UI](images/ui.png)
+## Generated Images 1
+![Generated Images](https://raw.githubusercontent.com/maaaanasa/project-5/main/images/generated%20images.png)
 
+## Generated Images 2
+![Generated Images 2](https://raw.githubusercontent.com/maaaanasa/project-5/main/images/generated%20images-2.png)
 
