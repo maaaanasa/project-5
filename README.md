@@ -1,5 +1,4 @@
 Surface Defect Generation using Conditional GAN
-📌 Project Overview
 
 This project implements a Conditional Generative Adversarial Network (cGAN) to generate synthetic surface defect images.
 
