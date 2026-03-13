@@ -15,3 +15,17 @@ Model training
 Synthetic image generation
 
 Streamlit web interface
+
+## Architecture Diagram
+
+![Architecture](images/architecture.png)
+
+## Generated Images
+
+![Generated Output](images/generated_output.png)
+
+## Streamlit UI
+
+![Streamlit UI](images/ui.png)
+
+
