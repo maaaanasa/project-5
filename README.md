@@ -16,6 +16,26 @@ Synthetic image generation
 
 Streamlit web interface
 
+# Check Points
+- Data preprocessing: normalization, resizing, augmentation  
+- Conditional Generator network to generate defect images based on category labels  
+- Discriminator network to distinguish real and fake images  
+- Custom training loop with loss monitoring  
+- Streamlit-based user interface for image generation  
+- CNN-based classifier for evaluating generated images
+
+  # Datasets Used
+- **SEU Surface Defect Dataset**  
+  - Categories: 7 defect types (0-6)  
+  - Image size: 128x128, RGB  
+  - Total images: [provide total count]  
+- **Preprocessing Steps**:  
+  - Resizing to 128x128  
+  - Normalization to [-1,1]  
+  - Data augmentation (rotation, flip)  
+
+
+
 # Module 1 — Data Pipeline
 
 Purpose:
@@ -93,6 +113,13 @@ Output:
 Trained generator & discriminator models saved (generator_model.h5).
 
 # Module 4 — Evaluation
+
+- **Generator Loss**: Measures how well the generator fools the discriminator  
+- **Discriminator Loss**: Measures how well the discriminator identifies real vs fake images  
+- **Accuracy**: Evaluation of generated images using a pre-trained classifier  
+- **FID Score (Fréchet Inception Distance)**: Measures similarity between real and generated images  
+- **Visual Inspection**: Manual check for realism and diversity of generated images  
+
 
 Split into submodules:
 
