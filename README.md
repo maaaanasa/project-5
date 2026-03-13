@@ -1,4 +1,4 @@
-Surface Defect Generation using Conditional GAN
+# Surface Defect Generation using Conditional GAN
 
 This project implements a Conditional Generative Adversarial Network (cGAN) to generate synthetic surface defect images.
 
@@ -165,6 +165,14 @@ Python logging, NumPy, Matplotlib
 
 ## Generated Images 1
 ![Generated Images](https://raw.githubusercontent.com/maaaanasa/project-5/main/images/generated%20images.png)
+
+# Project Title
+## Module 1 - Data Preprocessing
+### Step 1: Load Dataset
+### Step 2: Clean Data
+## Module 2 - Model Training
+### Generator Network
+### Discriminator Network
 
 ## Generated Images 2
 ![Generated Images 2](https://raw.githubusercontent.com/maaaanasa/project-5/main/images/generated%20images-2.png)
