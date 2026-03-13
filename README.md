@@ -16,13 +16,13 @@ Synthetic image generation
 
 Streamlit web interface
 
-Module 1 — Data Pipeline
+# Module 1 — Data Pipeline
 
 Purpose:
 
 Collects and preprocesses real surface images (normal + defected) for training.
 
-Steps / Actions:
+# Steps / Actions:
 
 Reads images from dataset folder.
 
@@ -40,7 +40,7 @@ Output:
 
 Preprocessed dataset ready for cGAN training.
 
-Module 2 — cGAN Architecture
+# Module 2 — cGAN Architecture
 
 Purpose:
 
@@ -48,13 +48,13 @@ Implements Conditional Generative Adversarial Network to generate defect images.
 
 Components:
 
-Generator:
+# Generator:
 
 Takes random noise + condition (defect type).
 
 Generates synthetic defect images.
 
-Discriminator:
+# Discriminator:
 
 Classifies images as real vs generated (fake).
 
@@ -68,7 +68,7 @@ Output:
 
 Model ready to generate defect images.
 
-Module 3 — Training Engine
+# Module 3 — Training Engine
 
 Purpose:
 
@@ -92,7 +92,7 @@ Output:
 
 Trained generator & discriminator models saved (generator_model.h5).
 
-Module 4 — Evaluation
+# Module 4 — Evaluation
 
 Split into submodules:
 
@@ -118,7 +118,7 @@ Libraries / Tools:
 
 Matplotlib, scikit-image, NumPy
 
-Module 5 — Deployment Layer (UI + API)
+# Module 5 — Deployment Layer (UI + API)
 
 Purpose:
 
@@ -142,7 +142,7 @@ Output:
 
 Interactive UI for synthetic defect image generation.
 
-Module 6 — Monitoring & Updates
+# Module 6 — Monitoring & Updates
 
 Purpose:
 
